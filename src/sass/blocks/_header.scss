@@ -1,0 +1,52 @@
+.header {
+    padding: 15px 0;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        display: block;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__menu {
+        margin-left: 64px;
+        &_link {
+            color: #07060B;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: normal;
+            margin-right: 32px;
+            &:nth-child(3) {
+                margin-right: 0;
+            }
+            &:hover {
+                color: #46F4DB;
+                text-decoration: none;
+                transition: 0.5s all;
+            }
+        }
+    }
+    &__wallet {
+        display: block;
+        width: 132px;
+        height: 50px;
+        background-color: #07060B;
+        border: none;
+        border-radius: 77px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 700;
+        &:hover {
+            background-color: #46F4DB;
+            color: #07060B;
+            transition: 0.5s all;
+        }
+    }
+}
