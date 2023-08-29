@@ -17,4 +17,19 @@
             height: 48px;
         }
     }
+    &__subscription {
+        color: #FFF;
+        font-size: 20px;
+        margin-bottom: 32px;
+        line-height: normal;
+    }
+    &__author {
+        margin-bottom: 16px;
+        color: #07060B;
+        &-sub {
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+    }
 }
