@@ -4,4 +4,17 @@
     font-size: 60px;
     font-weight: 400;
     line-height: 47px;
+    &__new {
+        color: white;
+        margin-bottom: 39px;
+        line-height: normal;
+        &::before {
+            content: "";
+            margin-right: 16px;
+            display: inline-block;
+            background: url(../../icons/emoji_fire.png) center (center / cover) no-repeat;
+            width: 48px;
+            height: 48px;
+        }
+    }
 }

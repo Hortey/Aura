@@ -1,0 +1,49 @@
+.new {
+    min-height: 684px;
+    background-color: #07060B;
+    padding: 90px 0;
+    &__slider {
+        position: relative;
+        &_content {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 64px;
+        }
+  
+    }
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+.slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    list-style-type: none;
+    .slick-active {
+        background: #D13130;
+        border-radius: 40px;
+    }
+    li {
+        margin-right: 20px;
+        :hover {
+            background: #D13130;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        button {
+            width: 56px;
+            height: 36px;
+            border-radius: 40px;
+            border: 2px solid #D13130;
+            background: none;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+
