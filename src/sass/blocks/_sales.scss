@@ -1,0 +1,60 @@
+.sales {
+    padding: 90px 0;
+    min-height: 870px;
+    background: #07060B;
+    &__wrapper {
+        display: flex;
+    }
+
+    &__left {
+        margin-right: 32px;
+    }
+    
+    &__item {
+        position: relative;
+        width: 624px;
+        height: 174px;
+        border-radius: 40px;
+        background: #EDEDF2;
+        margin-bottom: 32px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &-img {
+            position: absolute;
+            top: 16px;
+            left: 16px; 
+        }
+        &-info {
+            background: #fff;
+            width: 482px;
+            height: 174px;
+            border-radius: 0 40px 40px 0;
+            margin-left: 142px;
+            padding: 32px 0 32px 32px;
+            &_avatar {
+                color: #07060B;
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 4px;
+            }
+            &_name {
+                color: #07060B;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 4px;
+            }
+            &_price {
+                color: #07060B;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: normal;
+                span {
+                    color:#95959D;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
