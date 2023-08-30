@@ -1,0 +1,43 @@
+.footer {
+
+    &__top {
+        min-height: 80px;
+        background-color: #46F4DB;
+        padding: 20px 0;
+        &_container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &_menu {
+            
+            a {
+                color: #07060B;
+                font-size: 20px;
+                font-weight: 700;
+                margin-right: 32px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:hover {
+                    text-decoration: none;
+                    color: #57D272;
+                    transition: 0.5s all;
+                }
+            }
+        }
+    }
+
+    &__down {
+        padding: 8px 0;
+        min-height: 28px;
+        background-color: #07060B;
+        &_end {
+            color: #EDEDF2;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: normal;
+            text-align: center;
+        }
+    }
+}
